@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../test_iris.srcs/sources_1/imports/L0/circuito.vhd" \
+"../../../../test_iris.srcs/sources_1/new/control.vhd" \
+"../../../../test_iris.srcs/sources_1/new/distance.vhd" \
+"../../../../test_iris.srcs/sources_1/new/knn.vhd" \
+"../../../../test_iris.srcs/sources_1/new/list.vhd" \
+"../../../../test_iris.srcs/sources_1/new/list_sort.vhd" \
+"../../../../test_iris.srcs/sim_1/new/circuito_tb.vhd" \
+
+# Do not sort compile order
+nosort

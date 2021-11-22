@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Fri Oct 15 11:00:53 2021
+# Process ID: 3388
+# Current directory: C:/Users/tiago/OneDrive/Desktop/Universidade/Mestrado/PSD/Laboratorios/Lab1/project_1/project_1.runs/impl_1
+# Command line: vivado.exe -log fpga_basicIO.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source fpga_basicIO.tcl -notrace
+# Log file: C:/Users/tiago/OneDrive/Desktop/Universidade/Mestrado/PSD/Laboratorios/Lab1/project_1/project_1.runs/impl_1/fpga_basicIO.vdi
+# Journal file: C:/Users/tiago/OneDrive/Desktop/Universidade/Mestrado/PSD/Laboratorios/Lab1/project_1/project_1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source fpga_basicIO.tcl -notrace

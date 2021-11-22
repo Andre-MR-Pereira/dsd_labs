@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Fri Nov 19 22:47:28 2021
+# Process ID: 20684
+# Current directory: C:/Users/tiago/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18416
+# Log file: C:/Users/tiago/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/tiago/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Vivado/test_iris/test_iris.xpr
+launch_simulation
+source circuito_tb.tcl
+update_compile_order -fileset sources_1
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+open_run impl_1
+launch_simulation -mode post-implementation -type timing
+source circuito_tb.tcl
+current_sim simulation_1
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+archive_project C:/Vivado/test_iris.xpr.zip -temp_dir C:/Users/tiago/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-20684-DESKTOP-G74GFK5 -force -include_local_ip_cache

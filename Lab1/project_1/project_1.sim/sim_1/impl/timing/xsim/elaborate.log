@@ -1,0 +1,20 @@
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto caa8a7155aa74140a6a7b65e206d0ce5 --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot circuito_tb_time_impl -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.circuito_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.control [control_default]
+Compiling architecture behavioral of entity xil_defaultlib.datapath [datapath_default]
+Compiling architecture behavioral of entity xil_defaultlib.circuito [circuito_default]
+Compiling architecture behavior of entity xil_defaultlib.circuito_tb
+Built simulation snapshot circuito_tb_time_impl

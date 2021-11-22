@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"circuito_tb_func_synth.vhd" \
+"../../../../../test_iris.srcs/sim_1/imports/L0/circuito_tb.vhd" \
+
+# Do not sort compile order
+nosort

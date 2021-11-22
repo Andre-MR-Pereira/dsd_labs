@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1634293706">
+  <File Type="ROUTE-PWR" Name="fpga_basicIO_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="fpga_basicIO.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="fpga_basicIO_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="fpga_basicIO_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="fpga_basicIO.msk"/>
+  <File Type="ROUTE-CLK" Name="fpga_basicIO_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="fpga_basicIO.vdi"/>
+  <File Type="BG-BIT" Name="fpga_basicIO.bit"/>
+  <File Type="BG-DRC" Name="fpga_basicIO.drc"/>
+  <File Type="BG-BGN" Name="fpga_basicIO.bgn"/>
+  <File Type="BG-BIN" Name="fpga_basicIO.bin"/>
+  <File Type="BITSTR-RBT" Name="fpga_basicIO.rbt"/>
+  <File Type="BITSTR-NKY" Name="fpga_basicIO.nky"/>
+  <File Type="BITSTR-BMM" Name="fpga_basicIO_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="fpga_basicIO.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="fpga_basicIO_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="fpga_basicIO.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="fpga_basicIO.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-DRC" Name="fpga_basicIO_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="fpga_basicIO.hwdef"/>
+  <File Type="PLACE-IO" Name="fpga_basicIO_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="fpga_basicIO_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="fpga_basicIO_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="fpga_basicIO_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="fpga_basicIO_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="fpga_basicIO_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="fpga_basicIO_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="fpga_basicIO_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="fpga_basicIO_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="fpga_basicIO_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="fpga_basicIO_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="fpga_basicIO_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="fpga_basicIO_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="fpga_basicIO_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="fpga_basicIO_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="fpga_basicIO_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW" Name="fpga_basicIO_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="fpga_basicIO_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="fpga_basicIO_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="fpga_basicIO_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="fpga_basicIO_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="fpga_basicIO_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="fpga_basicIO_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="fpga_basicIO_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="fpga_basicIO_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="fpga_basicIO_postroute_physopt_bb.dcp"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="fpga_basicIO_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="fpga_basicIO_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="fpga_basicIO_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="fpga_basicIO.pdi"/>
+  <File Type="RCFI_FILE" Name="fpga_basicIO.rcfi"/>
+  <File Type="CFI_FILE" Name="fpga_basicIO.cfi"/>
+  <File Type="RNPI_FILE" Name="fpga_basicIO.rnpi"/>
+  <File Type="NPI_FILE" Name="fpga_basicIO.npi"/>
+  <File Type="RBD_FILE" Name="fpga_basicIO.rbd"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/circuit.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../project_1.srcs/sources_1/new/circuit.vhd"/>
+        <Attr Name="ImportTime" Val="1634293662"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clkdiv.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../project_1.srcs/sources_1/new/clkdiv.vhd"/>
+        <Attr Name="ImportTime" Val="1633801986"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/control.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../project_1.srcs/sources_1/new/control.vhd"/>
+        <Attr Name="ImportTime" Val="1633779696"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/datapath.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../project_1.srcs/sources_1/new/datapath.vhd"/>
+        <Attr Name="ImportTime" Val="1634292371"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/disp7.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../project_1.srcs/sources_1/new/disp7.vhd"/>
+        <Attr Name="ImportTime" Val="1633802040"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/hex2disp.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../project_1.srcs/sources_1/new/hex2disp.vhd"/>
+        <Attr Name="ImportTime" Val="1633802015"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fpga_basicIO.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../project_1.srcs/sources_1/new/fpga_basicIO.vhd"/>
+        <Attr Name="ImportTime" Val="1633803862"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="fpga_basicIO"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Lab0/Basys3_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../Lab0/Basys3_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1547208682"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2021"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>
